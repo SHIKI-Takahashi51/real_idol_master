@@ -4,7 +4,7 @@ class EthereumAPI
   # この設定は自分の環境に合わせる
   ETHEREUM_ADDRESS = "/Users/user1/data_testnet/geth.ipc"
   ETHEREUM_IDOL_CONTRACT = "#{Dir.pwd}/contracts/IdolContract.sol"
-  CONTRACT_ADDRESS = "0xac2e836015befd5f3dd494a1559e1a6f5c661bf4"
+  CONTRACT_ADDRESS = "0x6db6c68c05c0b7d228ba5322d1beab5c2ac6924b"
 
   SUPPLIER_ADDRESS = "0x030ad335eb3154c720c1da0be92c295fc1fbe0ae"
   SUPPLIER_PASSWORD = "pass0"

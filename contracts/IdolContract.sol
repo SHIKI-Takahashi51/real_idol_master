@@ -12,8 +12,6 @@ contract IdolContract {
   }
 
   mapping (uint256 => Idol) idols;
-  // Idolのindexは一意だが、同じIdolに対する写真が複数あるため、Indexをそのままkeyにすることができない
-  // そのため、keyとそのときのissuanceでハッシュ値を計算した値をmappingのkeyにする
   mapping (bytes32 => uint256) IdolHashToOwner;
 
   modifier onlyDeveloper() {
